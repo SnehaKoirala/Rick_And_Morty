@@ -1,0 +1,38 @@
+.character-detail {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.character-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.character-info {
+  flex: 1;
+}
+
+.right-section {
+  flex: 1;
+  padding-left: 16px;
+}
+
+.episode-list {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-left: 16px;
+  margin: 0;
+}
